@@ -12,8 +12,8 @@ As part of learning to code,I completed a project that involved creating a basic
 
 ## Features-
 
--Control song playback (play, pause, next)
--Display the currently playing song and album artwork
+- Control song playback (play, pause, next)
+- Display the currently playing song and album artwork
 
 ## Usage-
 
