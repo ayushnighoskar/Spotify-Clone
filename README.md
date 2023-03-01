@@ -10,6 +10,10 @@ As part of learning to code,I completed a project that involved creating a basic
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 </div>
 
+## Live Demo
+
+![Spotify-Clone](https://spotify-clone-javascript.netlify.app)
+
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/48729682/222124168-70e510a9-0232-4c71-9939-cd7e8c512fcc.png)
