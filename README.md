@@ -10,6 +10,15 @@ As part of learning to code,I completed a project that involved creating a basic
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 </div>
 
+## Features-
+
+Control song playback (play, pause, next)
+Display the currently playing song and album artwork
+
+## Usage-
+
+Once the Spotify clone is open in your browser, You can then click the play button next to the song to start playing it, and use the playback controls at the bottom of the page to control the song playback.The currently playing song and album artwork are displayed in the "Now Playing" section at the bottom of the page.
+
 ## Live-Demo-
 
 [Spotify-Clone-Live](https://spotify-clone-javascript.netlify.app/)
