@@ -12,7 +12,7 @@ As part of learning to code,I completed a project that involved creating a basic
 
 ## Live Demo
 
-![Spotify-Clone](https://spotify-clone-javascript.netlify.app)
+[Spotify-Clone](https://spotify-clone-javascript.netlify.app/)
 
 ## Screenshots
 
