@@ -10,9 +10,6 @@ As part of learning to code,I completed a project that involved creating a basic
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 </div>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e37fba97-0766-4626-9212-06a9fa3e5f00/deploy-status)](https://app.netlify.com/sites/animated-marshmallow-d90790/deploys)
-
-
 ## Features-
 
 - Control song playback (play, pause, next)
@@ -25,6 +22,10 @@ Once the Spotify clone is open in your browser, You can then click the play butt
 ## Live-Demo-
 
 [Spotify-Clone-Live](https://spotify-clone-javascript.netlify.app/)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e37fba97-0766-4626-9212-06a9fa3e5f00/deploy-status)](https://app.netlify.com/sites/animated-marshmallow-d90790/deploys)
+
 
 ## Screenshot-
 
