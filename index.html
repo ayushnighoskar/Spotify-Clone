@@ -1,0 +1,172 @@
+<!-- This line specifies the document type as HTML -->
+<!DOCTYPE html>
+
+<!-- This line starts the HTML document and sets the default language to English -->
+<html lang="en">
+  <head>
+    <!-- This line specifies the character encoding used in the document -->
+    <meta charset="UTF-8" />
+
+    <!-- This line specifies the compatibility mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This line sets the viewport properties for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This line sets the title of the webpage that appears in the browser tab -->
+    <title>Spotify - Your favourite music is here</title>
+
+    <!-- This line links the external CSS file to style the webpage -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- This line specifies the icon used in the browser tab -->
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+  </head>
+
+  <body>
+    <!-- This code block defines the navigation bar of the webpage -->
+    <nav>
+      <ul>
+        <!-- This line defines the brand logo and text -->
+        <li class="brand"><img src="logo.png" alt="Spotify" /> Spotify</li>
+      </ul>
+    </nav>
+    <!-- This code block defines the main content area of the webpage -->
+    <div class="container">
+      <div class="songList">
+        <!-- This line defines the title of the song list -->
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <!-- This code block defines the list of songs and their details -->
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">On & On</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="0" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Invincible</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="1" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Mortals</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="2" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Shine</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="3" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Why We Lose </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="4" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Sky High</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="5" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Symbolism</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="6" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Heroes Tonight</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="7" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Feel Good</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="8" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">My Heart</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="9" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <!-- A bottom div for displaying song controls -->
+    <div class="bottom">
+      <!-- A progress bar input element -->
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <!-- A container div for fontawesome icons -->
+      <div class="icons">
+        <!-- A fontawesome icon for previous song -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <!-- A fontawesome icon for playing/pausing the current song -->
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <!-- A fontawesome icon for next song -->
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <!-- A div for displaying the current song information -->
+      <div class="songInfo">
+        <!-- An image of a playing animation -->
+        <img src="playing.gif" width="42px" alt="" id="gif" />
+        <!-- The name of the currently playing song -->
+        <span id="masterSongName">On & On-Cartoon, Daniel Levi</span>
+      </div>
+    </div>
+    <!-- A script tag for including a JavaScript file -->
+    <script src="script.js"></script>
+    <!-- A script tag for including the fontawesome icon library -->
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
